@@ -1,7 +1,7 @@
 #/bin/bash
 set -e
 
-check=("git" "nvim" "wget" "python3" "ranger" "gcc" "npm")
+check=("git" "nvim" "wget" "python3" "ranger" "gcc" "npm" "unzip" "tmux")
 for i in "${check[@]}"
 do
 	if [[ $(which $i | wc -l) -eq 0 ]];
